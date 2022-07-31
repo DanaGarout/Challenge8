@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    background-color: #F1FAEE;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.container{
+    border: 2px solid #457B9D;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background: #457B9D;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+.title{
+    font-weight: 600;
+    color: #F1FAEE;
+    line-height: 23px;
+}
+.paragraph{
+    color: #A8DADC;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+.btn{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin: 15px;
+    font-weight: 600;
+    background-color: #FFC300;
+    color: #457B9D;
+}
+.submit{
+    width: 250px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 15px;
+    background-color: #FFD60A;
+    border: none;
+}
