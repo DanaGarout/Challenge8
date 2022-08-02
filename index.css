@@ -8,7 +8,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     
 }
-.container{
+.container1{
     border: 2px solid #457B9D;
     border-radius: 20px;
     width: 300px;
@@ -17,6 +17,11 @@ body{
     background: #457B9D;
     display: flex;
     flex-direction: column;
+    
+    
+}
+.front-page{
+    
 }
 .logo{
     width: 30px;
@@ -42,6 +47,7 @@ body{
     font-weight: 600;
     background-color: #FFC300;
     color: #457B9D;
+    padding: 2px;
 }
 .submit{
     width: 250px;
@@ -53,5 +59,28 @@ body{
     font-weight: 700;
     border-radius: 15px;
     background-color: #FFD60A;
+    color: #457B9D;
     border: none;
+    position: relative;
 }
+/* Submit page */
+.container2{
+    border: 2px solid #457B9D;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background: #457B9D;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    
+    
+}
+
+.review-img{
+    
+    width: 150px;
+    height: 150px;
+}
+

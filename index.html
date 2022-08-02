@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="container1">
+        <div class="front-page">
         <!-- Design -->
         <div class="first-part">
             <img src="images/rating.png" class="logo" alt="Rating Logo">
@@ -21,7 +22,7 @@
         <!-- Ratings -->
 
             <div class="btn-section">
-                <button class="btn">1</button>
+                <button class="btn" onclick="lowerScore()">1</button>
                 <button class="btn">2</button>
                 <button class="btn">3</button>
                 <button class="btn">4</button>
@@ -29,8 +30,22 @@
             </div>
             <!-- Submit Button -->
             <div class="submit-btn">
-                <button class="submit">submit</button>
+                <button class="submit" onclick="submitScore()">submit</button>
             </div>
+        </div>
+        </div>
+        <div class="container2">
+            <div class="review">
+                
+                <img class="review-img" src="images/review.png">           
+                <p class="paragraph" id="output-el"></p>
+                <h2 class="title">Thank you!</h2>
+                <p class="paragraph">We appreciate you taking the time to give a rating if you ever need mores support.
+                dont hesitate to get in touch!
+                </p>
+                
+            </div>
+
         </div>
     
 
