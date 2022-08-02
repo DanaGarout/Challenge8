@@ -20,9 +20,7 @@ body{
     
     
 }
-.front-page{
-    
-}
+
 .logo{
     width: 30px;
     height: 30px;
@@ -49,6 +47,10 @@ body{
     color: #457B9D;
     padding: 2px;
 }
+.btn:hover, .btn:focus{
+    color: #457B9D;
+    background-color: #F1FAEE;
+}
 .submit{
     width: 250px;
     height: 30px;
@@ -74,13 +76,15 @@ body{
     display: flex;
     flex-direction: column;
     visibility: hidden;
-    
-    
 }
-
-.review-img{
-    
+.review-img{ 
     width: 150px;
     height: 150px;
 }
+.do-flip {
+    -o-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
 
